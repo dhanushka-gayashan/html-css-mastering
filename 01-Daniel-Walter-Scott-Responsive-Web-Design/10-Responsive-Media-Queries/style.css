@@ -1,0 +1,22 @@
+/* Global View aka Desktop View */
+h1 {
+    color: limegreen;
+    font-family: 'Courier New', sans-serif;
+}
+
+
+/* Tablet View */
+@media (max-width: 768px) {
+    h1 {
+        color: darkorange;
+    }
+}
+
+
+/* Mobile View */
+@media (max-width: 500px) {
+    h1 {
+        color: navy;
+        font-family: "Roboto Thin", sans-serif;
+    }
+}
